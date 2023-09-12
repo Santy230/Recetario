@@ -38,6 +38,7 @@ def elegir_receta():
         contenido = file.read()
         print(f"\nReceta: {receta}\n")
         print(contenido)
+    system("pause")
 
 
 def crear_receta():
